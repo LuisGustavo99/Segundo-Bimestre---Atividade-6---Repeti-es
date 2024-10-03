@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real base, expoente, resultado = 1.0
+
+		escreva("Me informe um valor para a base: ")
+		leia(base)
+
+		escreva("Me informe um valor para o expoente: ")
+		leia(expoente)
+
+		para(inteiro i=1; i <= expoente; i++)
+		{
+		resultado = resultado * base
+		}
+		escreva(resultado)
+	}
+}
